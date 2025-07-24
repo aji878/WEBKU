@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #0e6fd0;
+  background: #789979;
   color: #705cb9;
   line-height: 1.6;
   padding: 2rem;
@@ -87,6 +87,7 @@ h1 {
     font-size: 1rem;
   }
 }
+
 .header {
   position: sticky;
   top: 0;
@@ -103,40 +104,4 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer p {
-  margin: 0;
-}
-
-.social-link {
-  color: #94a3b8;
-  font-size: 28px;
-  margin-left: 16px;
-  transition: color 0.3s ease;
-}
-
-.social-link:hover,
-.social-link:focus-visible {
-  color: #6366f1;
-  outline: none;
-}
-.contact-info {
-  padding: 40px;
-  text-align: center;
-}
-
-.contact-item {
-  margin: 20px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  font-size: 1.2rem;
-}
-
-.contact-item svg {
-  width: 24px;
-  height: 24px;
-  color: #4ade80;
 }
